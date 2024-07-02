@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <div className="bg-primary mx-auto flex min-h-screen w-full flex-col gap-4 px-[18px] py-10">
@@ -99,4 +99,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

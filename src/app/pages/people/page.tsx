@@ -25,7 +25,7 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 
-const page = () => {
+const Page = () => {
   const [data, setData] = useState<any>([]);
   const [name, setName] = useState("");
   const [task, setTask] = useState("");
@@ -189,4 +189,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
